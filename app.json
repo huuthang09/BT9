@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "BT5",
+    "slug": "BT5",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.huuthang.test",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDtONWGBmy7cuH7Y1t2y3yADa_R_5yCtkU"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "BT9"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
